@@ -1,0 +1,69 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 13px;
+  padding-left: 35px;
+  padding-right: 35px;
+  position: fixed;
+  width: 100%;
+  border-bottom: 1px solid gray;
+}
+header .icons i {
+  color: white;
+  padding-left: 20px;
+}
+header .home a {
+  padding-right: 35px;
+}
+
+#first {
+  background-image: url(https://weblearnbd.net/tphtml/shofy-prv/shofy/assets/img/slider/3/slider-1.jpg);
+  height: 100vh;
+  background-repeat: no-repeat;
+}
+#first .buttonn {
+  margin-top: 40px;
+  margin-left: 8rem;
+}
+#first .buttonn a {
+  font-size: 16px;
+  padding: 8px 29px;
+  border: 1px solid white;
+  transition: 0.6s;
+}
+#first .buttonn a:hover {
+  background-color: black;
+  border: 1px solid black;
+}
+#first .beauty {
+  padding-top: 15rem;
+  padding-left: 8rem;
+}
+#first .beauty h1 {
+  font-family: "Charm", cursive;
+  font-size: 30px;
+  color: white;
+  font-weight: 400;
+}
+#first .beauty h2 {
+  font-weight: 400;
+  font-size: 100px;
+  color: white;
+  font-family: "Jost", sans-serif;
+}
+
+main .box {
+  display: flex;
+  align-items: center;
+  padding-left: 8rem;
+  font-size: 35px;
+}
+main .box .image {
+  display: flex;
+  align-items: center;
+}
+main .box .image h3 {
+  padding: 0 20px;
+  font-size: 16px;
+}/*# sourceMappingURL=Shofy.css.map */
